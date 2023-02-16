@@ -1,0 +1,21 @@
+.user__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  padding-top: 48px;
+  margin-bottom: 20px;
+  &_item {
+    width: calc((100%/4) - 20px);
+    margin: 10px;
+    height: 263px;
+  }
+}
+
+.pages__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_page:not(:last-child) {
+    margin-right: 15px;
+  }
+}

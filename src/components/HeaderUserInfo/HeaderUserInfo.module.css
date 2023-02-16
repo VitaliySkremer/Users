@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 29px;
+  padding-bottom: 39px;
+}
+
+.avatar {
+  object-fit: cover;
+  width: 187px;
+  height: 187px;
+  border-radius: 50%;
+  margin-right: 32px;
+}
+
+.info {
+  color: white;
+}
+
+.name {
+  font-size: 64px;
+  line-height: 75px;
+  margin-bottom: 16px;
+}
+
+.status {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+/*# sourceMappingURL=HeaderUserInfo.module.css.map */

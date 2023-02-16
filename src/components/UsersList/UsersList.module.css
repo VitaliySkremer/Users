@@ -1,0 +1,23 @@
+.user__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  padding-top: 48px;
+  margin-bottom: 20px;
+}
+.user__list_item {
+  width: calc(25% - 20px);
+  margin: 10px;
+  height: 263px;
+}
+
+.pages__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pages__list_page:not(:last-child) {
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=UsersList.module.css.map */

@@ -1,0 +1,21 @@
+.header {
+  background-color: var(--primary);
+  padding-top: 32px;
+}
+.header_wrapper {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  align-self: flex-start;
+}
+
+/*# sourceMappingURL=Header.module.css.map */
